@@ -1,0 +1,540 @@
+:root {
+    view-transition-name: root;
+	
+}
+html{
+	min-width: 100%;
+	/*background-image:linear-gradient(190deg,#006666,#00FFFF,#99FFFF,#00FFFF,#006666);*/
+	min-height:100%;
+	display: block;
+	-webkit-locale: "en";
+	backdrop-filter:blur(5px);
+	background-image: url('images/li.jpg') ;
+	background-size: cover;
+	
+	
+}
+ 
+body{
+	min-width: 100%;
+	background-size: cover;
+	display: block;
+	min-height:100%;
+}
+header{
+	top: 0;
+	min-width: 100%;
+	background-image:linear-gradient(145deg,#003333, #006666,#009999,#006666,#003333);
+    height: 150px;
+	justify-content: space-between;
+	position: fixed;
+	display: flex;
+	flex-direction:row;
+	background-size: cover;
+	left:0;
+}
+.header{
+	width:30%;
+}
+.logo{
+	text-align: left;
+	color: skyblue;
+	margin-left: 100px;
+	font-size: 3em;
+}
+.navigator{width: 45%;
+
+}
+.anav{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	margin-right: 30px;
+	height: 50px;
+	display : flex; 
+	flex-direction:row;
+	color: white;
+	font-size: 1em;
+	font-weight:bold;
+	
+
+}
+.nav{
+	color: white;
+	margin: 10px;
+	width: 50%;
+	text-align: center;
+}
+
+	
+
+h1{
+	padding-top: 50px;
+	font-size: 3em;
+	color: black;
+	text-align: center;
+}
+p{
+	margin:20px;
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+}
+.section1{
+	padding-top:100px;
+	width: 100%;
+}
+
+.section2{ display:flex;
+	 flex-direction:row; 
+	
+}
+.main{
+	width: 75%;
+	height:80%;
+	
+}
+
+
+.main_img{
+	width: 80%;
+	border:#666 2px solid;
+	height:500px;
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+.main1{
+	width: 20%;
+	display: block;
+	padding-top:20%;
+	padding-bottom:20%;
+	height:80%;
+}
+
+.main2{
+	 display:flex;
+	 flex-direction:column; 
+	 position: center;
+	height: 60%;
+	border: 2px solid lightgray;
+}
+
+li.title{cursor: pointer;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	height: 50px;
+	border-bottom: 2px solid lightgray;
+	margin: 2.5px;
+	
+	}
+	
+	.item{
+	margin: 0;
+	padding: 2px;
+	}
+	
+	.pic{
+		width: 30%;
+	    height: 30px;
+	    padding-bottom: 10px;
+	}
+	
+	
+	.pic1{
+		width: 30%;
+		height: 30px;
+	    padding-bottom: 10px;
+	}
+	
+	.pic2{
+		width: 30%;
+		height: 30px;
+	    padding-bottom: 10px;
+	}
+
+
+.container{
+	padding-top: 100px;
+	padding-bottom:100px;
+}
+.row{
+	 display:flex;
+	 flex-direction:row; 
+	 
+}
+.Tlabel{
+	font-size: 1.5em;
+	font-weight:bold;
+	text-align: center;
+	font-style:  italic;
+	border-top: 2px black solid;
+}
+.map{
+	width: 35%;
+	padding-left:7%;
+	display:block;
+}
+.map_img{
+	width:300px;
+	height: 200px;
+	overflow-clip-margin: content-box;
+    overflow: clip;
+	
+	
+}
+.Ttext{font-size: 1.5em;
+	font-style:  italic;
+	text-align: center;
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+
+.Ptext{font-size: 1em;
+	font-style: italic;
+	text-align: left;
+	position: align;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+	
+}
+
+
+.map1{
+	width: 35%;
+    padding:0.5%;
+	display:block;
+}
+.map1_img{
+	width: 300px;
+	height: 200px;
+	overflow-clip-margin: content-box;
+    overflow: clip;
+}	
+
+
+.Ttext1{font-size: 1.5em;
+	font-style:  italic;
+	text-align: center;
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+
+.Ptext1{font-size: 1em;
+	font-style: italic;
+	text-align: left;
+    padding:2%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+	 
+}
+
+
+.map2{
+	width: 35%;
+	padding-right:5%;
+	display:block;
+}
+
+.map2_img{
+	width: 300px;
+	height: 200px;
+    overflow: clip;
+	
+}
+
+.Ttext2{font-size: 1.5em;
+	font-style:  italic;
+	text-align: center;
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+
+
+.Ptext2{font-size: 1em;
+	font-style: italic;
+	text-align: left;
+	padding-right:5%;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+footer{width: 100%;
+	background-image:linear-gradient(145deg,#003333, #006666,#009999,#006666,#003333);
+    height: 150px;
+	/*justify-content: space-between;
+	display: flex;*/
+	left: 0;
+	margin-bottom:0;
+	position:absolute;
+	
+	
+}
+.footer{
+	width:100%;
+	display:flex;
+	 flex-direction:row; 
+}
+div.the_author{
+	width: 50%;
+}
+.footer_author{text-align: left;
+	color: white;
+	margin-left: 50px;
+	font-size: 1.5em;
+	font-style: italic;
+	
+	
+	
+}
+div.me{
+	width:50%;
+	
+}
+.author{
+	font-size: 1em;
+	font-style: italic;
+	color: white;
+	text-align: right;
+	
+}
+h5{ 
+margin-left: 100px;
+color: white;
+font-style:italic;
+}
+
+/*login stylesheets
+*/
+
+
+.ul{
+	width:25%;
+	margin:0 auto;
+	border:2px solid #cccccc;
+	border-radius:10px;
+	background:#E0E0E0;
+    height:130%;
+	display:block;
+	list-style-type: disc;
+}
+label{
+	  display:block;
+	  font-size: 1.5em;
+	  font-weight: bold;
+	  font-style: italic;
+	  text-align: left;
+	  margin-left: 5%;
+	 
+}
+.inputlogin{
+	width:80%;
+	padding-block: 1px;
+	appearance: auto;
+	margin-left: 7%;
+}
+.button{
+	width: 100%;
+	height: 30px;
+	display:flex;
+	flex-direction:row; 
+	font-size: 1em;
+	padding: 5px auto;
+	
+}
+.sub{
+    font-size: 1em;
+    font-weight: bold;	
+	 margin-left: 60%;
+	
+}
+a.sigup{
+	font-size: 1em;
+    font-weight: bold;	
+	color:block; 
+}
+.reg{
+	width: 80%;
+	text-align: left;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	font-style: italic;
+	
+}
+li.rigestration{
+	width: 35%;
+	margin:0 auto;
+	border:2px solid #cccccc;
+	padding: 0 20px 20px 20px;
+	border-radius:10px;
+	background:#E0E0E0;
+    height:80%;
+	display:block;
+	list-style-type: disc;
+}
+div.gender{
+	width: 80%;
+	font-size: 1.1em;
+	font-weight: bold;
+	display:block;
+    flex-direction:row; 
+	display:flex;
+	
+}
+input{
+	width: 80%;
+	height: 30px;
+	display:flex;
+	font-size: 1em;
+	margin-left: 50px;
+}
+input.submit{
+	width:30%;
+	font-weight:bold;
+	text-align: center;
+	border-color: #B0B0B0;
+}
+
+/*administration stylesheet*/
+div.administration{
+	width: 80%;
+	height:500px;
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 20%;
+	
+}
+ a.btn.btn-success{
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: white 2px solid;
+	background-color: white;
+    height: 50%;
+	cursor: pointer;
+	margin:42%;
+	
+}
+/*feeds stylesheet*/
+div.feeds{
+	margin-top: 15%;
+	width: 90%;
+	min-height:100%;
+	margin-left: auto;
+    margin-right: auto;
+	border:#666 2px solid;
+	display:flex;
+}
+div.field{
+	width: 70%;
+	
+	
+}
+h4{
+	text-align:center;
+	font-style: italic;
+	font-size:1.2em;
+	
+}
+p.postmessage{
+	height:100px;
+	border:auto 2px black;
+	text-align: left;
+}
+
+textarea{
+	width:70%;
+	border:black 2px solid;
+	margin-left: 15%;
+	margin-right: 20%;
+	font-size:1em;
+	font-family: times romance;
+	font-style:italic;
+	
+}
+button.posthere{
+	font-family:romance;
+	font-weight:bold;
+	width:20%;
+	display: block;
+	font-size: 1.5em;
+	cursor: pointer;
+    box-sizing: border-box;
+    background-color: buttonface;
+    float: right;
+	margin-right:15%;
+   }
+   div.posted{
+	width:70%;
+	border:black 2px solid;
+	margin-left: 15%;
+	margin-right: 20%;
+	font-size:1.3em;
+	font-style:italic;
+	   
+   }
+div.field1{
+	border-left:black 2px solid;
+	width: 30%;
+	
+}
+a.registration{
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-color: white;
+	border:#666 2px solid;
+	cursor: pointer;
+	display: center;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+/*this sytle for resident.php*/
+
+div.resident{
+	width: 900px;
+	height: 100%;
+	margin-top: 150px;
+}
+h1.hresident{
+	margin-top:150px ;
+}
+
+
+/*tr*/
+tr.htr{
+	background: #003333;
+}
