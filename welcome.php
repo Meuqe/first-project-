@@ -25,8 +25,6 @@
 			     <nav class="anav">
 			     <a class="nav" href="welcome.php">Home</a>
 				 <a class="nav" href="resident.php">Resident list</a>
-			     <a class="nav" href="register.php">Add Resident</a>
-				 <a class="nav" href="signup.php">signup</a>
 				 <a class="nav" href="">User list</a>
 				 <a class="nav" href="index.php">logout</a>
 				 </nav>	
